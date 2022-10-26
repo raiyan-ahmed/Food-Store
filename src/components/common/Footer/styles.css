@@ -2,9 +2,19 @@ footer {
   border-top: 1px solid #000;
   margin-top: 3rem;
   padding: 2rem 0 2rem 0;
+}
+
+footer .top {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+}
+
+footer .bottom {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 footer p {
@@ -13,8 +23,10 @@ footer p {
   margin-right: 0.5rem;
 }
 
+
 @media (max-width: 576px) {
   footer p {
     font-size: 0.8rem;
   }
+
 }
